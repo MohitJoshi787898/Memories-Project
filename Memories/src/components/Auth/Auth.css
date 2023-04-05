@@ -1,0 +1,59 @@
+.body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.container{
+    margin-top: 5vw;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--Container);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(207, 200, 200);
+    
+
+}
+.title{
+    margin-top: 20px;
+}
+.input_style{
+    width: 75%;
+    margin-top: 15px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 2px 2px rgb(207, 200, 200);
+    font-size: 20px;
+    padding: 5px;
+}
+.input_style:focus{
+    background-color: lightblue;
+    border: 2px solid red;
+    border-radius: 0px 0px 2px 2px red; 
+    border: none;
+}
+.login_Btn{
+    width: 60%;
+    background-color: var(--Primary);
+    border-radius: 7px;
+    box-shadow: 0px 0px 2px 2px rgb(207, 200, 200);
+    height: 38px;
+    border: none;
+    margin: 10px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.Toogle_login{
+    margin: 10px 0px;
+    width: 55%;
+    
+
+}

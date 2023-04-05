@@ -1,0 +1,93 @@
+.PostContainer{
+    background-color:var(--Container);
+    max-width: 330px;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: var(--shadow);
+    border-radius: 20px;
+    gap: 0px;
+
+    grid-template-rows: 100px 100px;
+    /* height: 10px; */
+
+}
+
+.post_img{
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+   
+}
+.post_name{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+.PostEdit{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+    
+}
+.post_text{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    color: white;
+}
+.PostLike{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    cursor: pointer;
+    /* color:var(--Primary); */
+
+}
+.PostDisLike{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    cursor: pointer;
+}
+.PostDelete{
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    cursor: pointer;
+}
+.Post_Details{
+    display: grid;
+    grid-template-rows:20px 20px auto;
+    /* width: 100%; */
+    margin-left: 10px;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    gap: 20px;   
+}
+.Post_Title{
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 10px;
+    
+    
+}
+.Post_Tags{
+    font-size: 17px;
+    font-weight: bolder;
+    padding-left: 10px;
+    
+}
+.Post_Message{
+    padding-left: 10px;
+    font-size: 23px;
+    
+}
+
+

@@ -1,0 +1,9 @@
+:root{
+    --Primary:rgb(7, 189, 255);
+    --Primary_Dark:rgb(3, 112, 151);
+    --Secondary:rgb(233, 64, 135);
+    --Secondary_Dark:rgb(182, 7, 80);
+    --Containers:rgb(183, 183, 184);
+    --shadow: 0px 0px 2px 2px rgb(160, 160, 190)
+}
+*{margin: 0;padding: 0;}
