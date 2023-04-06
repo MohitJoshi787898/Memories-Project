@@ -7,10 +7,11 @@ import { Provider } from 'react-redux'
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import reducers from './reducers';
+const CLIENT_ID=process.env.CLIENT_ID
 
 const store = createStore(reducers, compose(applyMiddleware(thunk)));
 ReactDOM.createRoot(document.getElementById('root')).render(
-<GoogleOAuthProvider clientId="985843998076-vnr7mjog8bo2bdvid7q0qk2h4j76sp4v.apps.googleusercontent.com">
+<GoogleOAuthProvider clientId={CLIENT_ID}>
 <Provider store={store}>
 
   <React.StrictMode>
